@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.example.firebase_crud.UserServiceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.059 s <<< FAILURE! -- in com.example.firebase_crud.UserServiceTest
+com.example.firebase_crud.UserServiceTest -- Time elapsed: 0.059 s <<< ERROR!
+java.io.FileNotFoundException: src\main\resources\serviceAccountKey.json (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at com.example.firebase_crud.UserServiceTest.setUp(UserServiceTest.java:26)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
